@@ -41,7 +41,7 @@ export function Navbar() {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="hidden md:flex items-center gap-8"
+            className="hidden md:flex items-center gap-6"
           >
             <a href="/#home" className="text-sm font-medium hover:text-teal-500 transition-colors">
               Home
@@ -55,8 +55,11 @@ export function Navbar() {
             <a href="/#projects" className="text-sm font-medium hover:text-teal-500 transition-colors">
               Projects
             </a>
-            <a href="#contact" className="text-sm font-medium hover:text-teal-500 transition-colors">
-              Contact
+            <a href="/#testimonials" className="text-sm font-medium hover:text-teal-500 transition-colors">
+              Testimonials
+            </a>
+            <a href="/#experience" className="text-sm font-medium hover:text-teal-500 transition-colors">
+              Experience
             </a>
           </motion.div>
 
